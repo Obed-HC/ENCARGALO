@@ -26,139 +26,130 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mip_rpedtbusquedanombre"
-                android:layout_width="300dp"
-                android:layout_height="35dp"
-                style="@style/textinput"
+                android:layout_width="@dimen/btn_type01_width"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/input_marginRight"
+                style="@style/input"
                 android:hint="@string/mit_varstrregistrarproducto2"/>
 
             <Button
                 android:id="@+id/mip_rpbtnbuscarproducto"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:drawableStart="@drawable/ic_icon_browser"/>
 
         </LinearLayout>
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="138dp"
-            android:layout_height="115dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:src="@drawable/ic_icon_agregarimg"
             tools:ignore="ContentDescription" />
-
-
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mit_varstrregistrarproducto5"
-            android:layout_margin="@dimen/activity_margin"
-            style="@style/Subtitle_2"
-            />
+            android:layout_margin="@dimen/input_marginRight"
+            style="@style/Subtitle_2" />
 
-        <TextView
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/mit_varstrregistrarproducto6"
-            style="@style/Body_3"
-            android:layout_marginStart="@dimen/activity_margin"
-            />
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/mip_rpedtdescpricion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            style="@style/textinput"
-            android:layout_marginStart="@dimen/activity_margin"
-            android:layout_marginBottom="@dimen/activity_vertical_margin">
-        </com.google.android.material.textfield.TextInputEditText>
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/input_marginRight"
+            style="@style/textinput">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mip_rpedtdescpricion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mit_varstrregistrarproducto6"
+                android:padding="@dimen/input_padding"
+                style="@style/input"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mit_varstrregistrarproducto7"
-            style="@style/textinput"
-            android:layout_marginStart="@dimen/activity_margin"/>
+            style="@style/Body_3"
+            android:layout_margin="@dimen/input_marginRight"/>
         <Spinner
             android:id="@+id/mip_rpedtcategoria"
             android:layout_width="match_parent"
-            android:layout_height="36dp"
-            style="@style/textinput"
-            android:layout_marginStart="@dimen/activity_margin"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+            android:layout_height="wrap_content"
+            style="@style/input"
+            android:layout_margin="@dimen/input_marginRight"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mit_varstrregistrarproducto8"
             style="@style/Body_3"
-            android:layout_marginStart="@dimen/activity_margin"/>
+            android:layout_margin="@dimen/input_marginRight"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:orientation="horizontal">
-
+            android:orientation="horizontal"
+            android:layout_margin="@dimen/input_marginRight">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/str_txt_simboloprecio"
-                android:layout_marginStart="10dp"
-                android:layout_gravity="center_vertical" />
-
+                style="@style/textinput"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="@dimen/input_marginRight"/>
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mip_rpedtcostoproducto"
-                style="@style/textinput"
-                android:layout_width="150dp"
-                android:layout_height="35dp"
-                android:inputType="numberDecimal"
-                android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/input"
+                android:inputType="numberDecimal"/>
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/mit_varstrregistrarproducto9"
             style="@style/Body_3"
-            android:layout_marginStart="@dimen/activity_margin"/>
+            android:layout_margin="@dimen/input_marginRight"/>
         <LinearLayout
             android:layout_width="375dp"
             android:layout_height="55dp"
             android:layout_marginStart="10dp"
             android:orientation="horizontal">
-
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/str_txt_simboloprecio"
+                style="@style/textinput"
                 android:layout_gravity="center_vertical"
-                android:layout_marginStart="10dp" />
+                android:layout_margin="@dimen/input_marginRight"/>
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mip_rpedtprecioventa"
-                android:layout_width="150dp"
-                android:layout_height="35dp"
-                android:inputType="numberDecimal"
-                android:layout_gravity="center"
-                style="@style/textinput"
-                android:textColor="@color/blackPrimary" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/input"
+                android:inputType="numberDecimal"/>
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_margin="@dimen/input_marginRight"
             android:gravity="center">
 
             <Button
                 android:id="@+id/mip_rpbtnproductopropio"
-                android:layout_width="@dimen/btn_type04_width"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="25dp"
                 android:background="@drawable/containedbtn_green"
                 style="@style/Contained_button_green"
                 android:text="@string/mit_varstrregistrarproducto11"/>
@@ -169,9 +160,6 @@
                 android:layout_width="@dimen/btn_type04_width"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="25dp"
                 android:background="@drawable/containedbtn_blue"
                 android:text="@string/mit_varstrregistrarproducto10" />
         </LinearLayout>

@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_gravity="center_horizontal">
 
     <FrameLayout
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="25dp">
+        android:layout_width="@dimen/btn_type05_width"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin">
 
+        <TextView
+            android:id="@+id/rt_pttxtnombretienda"
+            style="@style/Body_2"
+            android:layout_margin="@dimen/input_marginRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:drawableStartCompat="@drawable/icono_perfil"
+            android:textColor="@color/blackPrimary"/>
         <RadioButton
             android:id="@+id/rt_ptrbtntiendas"
             android:layoutDirection="rtl"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/outline_black"
-            android:drawableEnd="@drawable/icono_perfil"
-            android:padding="15dp"/>
-
-        <TextView
-            android:id="@+id/rt_pttxtnombretienda"
-            android:layout_marginTop="21dp"
-            android:layout_marginStart="45dp"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/blackPrimary"/>
+            android:background="@drawable/outline_black"/>
     </FrameLayout>
-
 </LinearLayout>

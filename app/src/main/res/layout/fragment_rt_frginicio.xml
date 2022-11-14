@@ -14,26 +14,24 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="78dp"
+        android:layout_margin="@dimen/activity_margin"
         android:gravity="center"
         android:text="@string/rt_varstrinicioesc11"
         style="@style/Subtitle_1"
         />
 
     <ImageView
-        android:layout_width="155dp"
-        android:layout_height="151dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
+        android:layout_margin="@dimen/activity_margin"
         android:src="@drawable/logo1"
         tools:ignore="ContentDescription"/>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:paddingBottom="25dp">
+        android:layout_height="wrap_content"
+        android:padding="@dimen/input_padding">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">

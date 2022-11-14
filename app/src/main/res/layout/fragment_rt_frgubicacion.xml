@@ -12,11 +12,10 @@
     android:focusable="true"
     tools:context=".tendero.Inicio_sesion.ui.Mi_tienda.rt_frgubicacion">
 
-
     <FrameLayout
         android:id="@+id/contenedorFrament"
         android:layout_width="match_parent"
-        android:layout_height="530dp">
+        android:layout_height="@dimen/mdl_width">
 
         <fragment
             android:id="@+id/rt_frgmapa"
@@ -26,39 +25,31 @@
             />
     </FrameLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/rt_ubcbtnagregarubicacion"
-            android:layout_width="205dp"
-            android:layout_height="35dp"
-            style="@style/Contained_button_blue"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="32dp"
-            android:background="@drawable/containedbtn_blue"
-            android:text="@string/rt_varstrubicacion2"
-            android:textColor="@color/whitePrimary"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/rt_ubcbtncancelar"
-            app:layout_constraintTop_toTopOf="parent" />
-
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/activity_margin"
+        >
         <Button
             android:id="@+id/rt_ubcbtncancelar"
             style="@style/Contained_button_green"
-            android:layout_width="120dp"
-            android:layout_height="35dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="5dp"
-            android:text="@string/str_btn_cancelar"
-            app:layout_constraintEnd_toStartOf="@+id/rt_ubcbtnagregarubicacion"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            android:layout_width="@dimen/btn_type03_width"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/input_marginRight"
+            android:text="@string/str_btn_cancelar" />
+        <Button
+            android:id="@+id/rt_ubcbtnagregarubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Contained_button_blue"
+            android:layout_margin="@dimen/input_marginRight"
+            android:background="@drawable/containedbtn_blue"
+            android:text="@string/rt_varstrubicacion2"
+            android:textColor="@color/whitePrimary"/>
+
+
+    </LinearLayout>
 
 </LinearLayout>
 

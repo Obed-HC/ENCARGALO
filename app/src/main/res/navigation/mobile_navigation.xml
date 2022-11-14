@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/nav_inicio"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frginicio"
-        android:label="fragment_rt_frginicio"
+        android:label="Inicio"
         tools:layout="@layout/fragment_rt_frginicio" >
         <action
             android:id="@+id/action_nav_mi_tienda_to_rt_frgtiendaelegida"
@@ -21,7 +21,7 @@
     <fragment
         android:id="@+id/nav_mi_tienda"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgmenutienda"
-        android:label="@string/menu_mitienda"
+        android:label="Mi tienda"
         tools:layout="@layout/fragment_mit_frgmenutienda" >
         <action
             android:id="@+id/action_mit_frgmenutienda_to_rt_frgcategoriatienda"
@@ -245,7 +245,7 @@
     <fragment
         android:id="@+id/rt_frgubicacion"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.rt_frgubicacion"
-        android:label="fragment_rt_frgubicacion"
+        android:label="Añadir Ubicacion"
         tools:layout="@layout/fragment_rt_frgubicacion" />
     <fragment
         android:id="@+id/rt_frgcrearpuntoventa"
@@ -290,7 +290,7 @@
     <fragment
         android:id="@+id/mip_frgreporteproductos"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_productos.mip_frgreporteproductos"
-        android:label="fragment_mip_frgreporteproductos"
+        android:label="Reporte de productos"
         tools:layout="@layout/fragment_mip_frgreporteproductos" >
         <action
             android:id="@+id/action_mip_frgreporteproductos_to_mip_frgdetalleproducto"
@@ -299,7 +299,7 @@
     <fragment
         android:id="@+id/mip_frgregistrarproducto"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_productos.mip_frgregistrarproducto"
-        android:label="fragment_mip_frgregistrarproducto"
+        android:label="Agregar producto"
         tools:layout="@layout/fragment_mip_frgregistrarproducto" >
         <action
             android:id="@+id/action_mip_frgregistrarproducto_to_mip_frgproductoagregado"
@@ -311,7 +311,7 @@
     <fragment
         android:id="@+id/mip_frgproductoagregado"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_productos.mip_frgproductoagregado"
-        android:label="fragment_mip_frgproductoagregado"
+
         tools:layout="@layout/fragment_mip_frgproductoagregado" >
         <action
             android:id="@+id/action_mip_frgproductoagregado_to_nav_mis_productos"
@@ -320,7 +320,7 @@
     <fragment
         android:id="@+id/mip_frgproductopropio"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_productos.mip_frgproductopropio"
-        android:label="fragment_mip_frgproductopropio"
+        android:label="Agregar producto propio"
         tools:layout="@layout/fragment_mip_frgproductopropio" >
         <action
             android:id="@+id/action_mip_frgproductopropio_to_mip_frgproductoagregado"
@@ -329,12 +329,11 @@
     <fragment
         android:id="@+id/mit_frgcambiartienda"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgcambiartienda"
-        android:label="fragment_mit_frgcambiartienda"
+        android:label="Cambiar tienda"
         tools:layout="@layout/fragment_mit_frgcambiartienda" />
     <fragment
         android:id="@+id/mit_frgdatostienda"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mi_tienda.mit_frgdatostienda"
-        android:label="fragment_mit_frgdatostienda"
         tools:layout="@layout/fragment_mit_frgdatostienda" />
 
 

@@ -35,10 +35,9 @@
 
     <ImageView
         android:id="@+id/rt_imgtienda"
-        android:layout_width="155dp"
-        android:layout_height="151dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp"
         android:src="@drawable/logo1"
         tools:ignore="ContentDescription"/>
 

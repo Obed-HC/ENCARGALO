@@ -19,7 +19,6 @@
             android:layout_marginTop="125dp"
             android:gravity="center"
             android:text="@string/mit_varstrproductoagregado1"
-            android:textSize="@dimen/fab_margin"
             style="@style/Headline_5"
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="0dp"
@@ -40,18 +39,12 @@
             android:id="@+id/mip_pabtnvolver"
             android:layout_width="@dimen/btn_type02_width"
             android:layout_height="wrap_content"
-            android:layout_marginStart="141dp"
-            android:layout_marginTop="362dp"
-            android:layout_marginEnd="142dp"
-            android:layout_marginBottom="108dp"
             android:background="@drawable/containedbtn_green"
             android:text="@string/mit_varstrproductoagregado2"
             style="@style/Contained_button_green"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/mip_patxtcomentario1"
-            app:layout_constraintVertical_bias="0.562" />
+            app:layout_constraintTop_toBottomOf="@+id/mip_patxtcomentario1" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

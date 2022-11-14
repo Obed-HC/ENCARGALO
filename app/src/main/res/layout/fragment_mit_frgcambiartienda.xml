@@ -14,9 +14,10 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/mit_ctedtbusquedatienda"
-            android:layout_width="300dp"
-            android:layout_height="35dp"
-            style="@style/textinput"
+            android:layout_width="@dimen/btn_type01_width"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/input_marginRight"
+            style="@style/input"
             android:hint="@string/mit_varstrcambiartienda"/>
 
         <Button
@@ -29,10 +30,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
-        android:paddingBottom="25dp">
+        android:layout_height="wrap_content">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/mit_ctrclvtiendas"

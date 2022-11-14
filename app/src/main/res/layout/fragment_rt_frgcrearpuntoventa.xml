@@ -19,8 +19,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_margin="@dimen/input_marginRight"
             android:text="@string/rt_varstrcrearpuntoventa1"
             style="@style/Headline_5"/>
 
@@ -28,13 +27,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+            android:layout_margin="@dimen/input_marginRight"
             style="@style/textinput">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/rt_cpvedtnombremarca"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                style="@style/textinput"
+                android:layout_height="wrap_content"
+                style="@style/input"
+                android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrcrearpuntoventa2"
                 android:inputType="text"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -42,30 +42,32 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
             android:layout_gravity="center"
+            android:layout_margin="@dimen/input_marginRight"
             style="@style/textinput">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/rt_cpvedtcorreo"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="@string/rt_varstrcrearpuntoventa4"
-                style="@style/textinput"
+                android:padding="@dimen/input_padding"
+                style="@style/input"
                 android:inputType="textEmailAddress"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
             android:layout_gravity="center"
+            android:layout_margin="@dimen/input_marginRight"
             style="@style/textinput">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/rt_cpvedttelefono"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:hint="@string/rt_varstrcrearpuntoventa5"
-                style="@style/textinput"
+                android:padding="@dimen/input_padding"
+                style="@style/input"
                 android:inputType="number"
                 android:maxLength="10"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -73,15 +75,16 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
             android:layout_gravity="center"
+            android:layout_margin="@dimen/input_marginRight"
             style="@style/textinput">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/rt_cpvedtventames"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:hint="@string/rt_varstrcrearpuntoventa3"
-                style="@style/textinput"
+                android:padding="@dimen/input_padding"
+                style="@style/input"
                 android:inputType="numberDecimal"
                 android:maxLength="6"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -89,15 +92,16 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
             android:layout_gravity="center"
+            android:layout_margin="@dimen/input_marginRight"
             style="@style/textinput">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/rt_cpvedtinventario"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:hint="@string/rt_varstrcrearpuntoventa6"
-                style="@style/textinput"
+                android:padding="@dimen/input_padding"
+                style="@style/input"
                 android:inputType="numberDecimal"
                 android:maxLength="6">
             </com.google.android.material.textfield.TextInputEditText>
@@ -106,20 +110,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
             android:text="@string/rt_varstrcrearpuntoventa9"
+            android:layout_margin="@dimen/input_marginRight"
             style="@style/Body_3"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
             android:entries="@array/rt_varstrcrearpuntoventa10"/>
-
         <Spinner
             android:id="@+id/rt_cpvspnrciudad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
             android:layout_gravity="center"
-            style="@style/textinput"
+            android:layout_margin="@dimen/input_marginRight"
             android:entries="@array/rt_varstrcrearpuntoventa10"/>
 
         <Button
@@ -129,18 +130,17 @@
             android:drawableStart="@drawable/ic_icon_geoaltfill"
             style="@style/Contained_button_green"
             android:text="@string/rt_varstrcrearpuntoventa7"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_margin="@dimen/input_marginRight"
             android:background="@drawable/containedbtn_green"/>
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/rt_cpvedtubicacion"
             style="@style/input"
-            android:layout_width="@dimen/btn_type01_width"
-            android:layout_height="@dimen/btn_type02_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/input_marginRight"
             android:layout_gravity="center"
-            android:inputType="textMultiLine"
-            android:layout_marginTop="@dimen/activity_vertical_margin"/>
+            android:inputType="textMultiLine"/>
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -149,10 +149,9 @@
             <Button
                 android:id="@+id/rt_cpvbtncontinuar"
                 style="@style/Contained_button_blue"
-                android:layout_width="wrap_content"
+                android:layout_width="@dimen/btn_type03_width"
                 android:layout_height="wrap_content"
-                android:layout_marginVertical="@dimen/activity_vertical_margin"
-                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_margin="@dimen/input_padding"
                 android:background="@drawable/containedbtn_blue"
                 android:text="@string/str_btn_continuar"
                 app:layout_constraintBottom_toBottomOf="parent"

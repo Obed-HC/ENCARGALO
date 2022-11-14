@@ -32,8 +32,8 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="34dp"
-            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/nav_header_vertical_spacing"
             android:textColor="@color/whitePrimary"
             android:background="@drawable/containedbtn_blue"
             style="@style/Body_3"
@@ -47,10 +47,11 @@
             style="@style/textinput">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mit_dtedtnombretienda"
-                android:layout_width="320dp"
-                android:layout_height="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                style="@style/textinput"
+                android:layout_margin="@dimen/activity_margin"
+                style="@style/input"
                 android:drawableStart="@drawable/icono_perfil"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda2" />
@@ -63,10 +64,11 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mit_dtedtsitioweb"
-                android:layout_width="320dp"
-                android:layout_height="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                style="@style/textinput"
+                android:layout_margin="@dimen/activity_margin"
+                style="@style/input"
                 android:drawableStart="@drawable/link_internet1"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda3"/>
@@ -74,19 +76,19 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/mit_dtedtdescripcion"
-            android:layout_width="320dp"
-            android:layout_height="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            style="@style/textinput"
+            style="@style/input"
+            android:layout_margin="@dimen/activity_margin"
             android:drawableStart="@drawable/tienda_de_abarrotes1"
             android:padding="@dimen/input_padding"
-            android:layout_marginTop="@dimen/input_marginRight"
             android:hint="@string/rt_varstrdatostienda4"/>
 
         <TextView
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
-            android:layout_height="34dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/nav_header_vertical_spacing"
             android:textColor="@color/whitePrimary"
             android:background="@drawable/containedbutton_green"
             android:text="@string/rt_varstrdatostienda5"
@@ -100,11 +102,12 @@
             style="@style/textinput">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mit_dtedtcorreo"
-                android:layout_width="320dp"
-                android:layout_height="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                style="@style/textinput"
+                style="@style/input"
                 android:drawableStart="@drawable/correo3x1"
+                android:layout_margin="@dimen/activity_margin"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda6"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -115,10 +118,11 @@
             style="@style/textinput">
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mit_dtedttelefono"
-                android:layout_width="320dp"
-                android:layout_height="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                style="@style/textinput"
+                style="@style/input"
+                android:layout_margin="@dimen/activity_margin"
                 android:drawableStart="@drawable/telefono_3x1"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda7"/>
@@ -131,12 +135,12 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mit_dtedtubicacion"
-                android:layout_width="320dp"
-                android:layout_height="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                style="@style/textinput"
+                style="@style/input"
                 android:drawableStart="@drawable/ubicacion3x1"
-                android:layout_marginTop="18dp"
+                android:layout_margin="@dimen/activity_margin"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda8"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -150,8 +154,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 style="@style/Contained_button_blue"
-                android:layout_marginTop="50dp"
-                android:layout_marginEnd="25dp"
                 android:text="@string/str_btn_continuar"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
