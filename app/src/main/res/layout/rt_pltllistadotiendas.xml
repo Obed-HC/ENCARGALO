@@ -17,13 +17,15 @@
             android:layout_margin="@dimen/input_marginRight"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:drawableStartCompat="@drawable/icono_perfil"
+            android:layout_gravity="center"
+            app:drawableStartCompat="@drawable/rt_iconmistiendas"
             android:textColor="@color/blackPrimary"/>
         <RadioButton
             android:id="@+id/rt_ptrbtntiendas"
             android:layoutDirection="rtl"
+            style="Outlined_buttonXL_black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/outline_black"/>
+            android:background="@drawable/outlinebtnxl_black"/>
     </FrameLayout>
 </LinearLayout>

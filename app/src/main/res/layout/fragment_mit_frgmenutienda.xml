@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/mit_mtbtnproveedor"
-        android:drawableStart="@drawable/proveedor3x1"
-        android:drawableEnd="@drawable/icon_nextx1"
+        android:drawableStart="@drawable/mit_iconproveedor"
+        android:drawableEnd="@drawable/mit_iconflechaverde"
         android:layout_width="@dimen/btn_type05_width"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
@@ -19,13 +19,13 @@
         android:layout_margin="@dimen/input_marginRight"
         android:padding="@dimen/btn_type05_paddingBottom"
         android:text="@string/mit_varstrmenutienda1"
-        style="@style/Outlined_button_blue"
-        android:background="@drawable/outline_blue"/>
+        style="@style/Outlined_buttonXL_green"
+        android:background="@drawable/outlinebtnxl_green"/>
 
     <Button
         android:id="@+id/mit_mtbtningresostock"
-        android:drawableStart="@drawable/ingreso_de_stock1"
-        android:drawableEnd="@drawable/icon_nextx1"
+        android:drawableStart="@drawable/mit_iconingresostock"
+        android:drawableEnd="@drawable/mit_iconflechaverde"
         android:layout_width="@dimen/btn_type05_width"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
@@ -33,13 +33,13 @@
         android:layout_gravity="center"
         android:padding="@dimen/btn_type05_paddingBottom"
         android:text="@string/mit_varstrmenutienda2"
-        style="@style/Outlined_button_blue"
-        android:background="@drawable/outline_blue" />
+        style="@style/Outlined_buttonXL_green"
+        android:background="@drawable/outlinebtnxl_green" />
 
     <Button
         android:id="@+id/mit_mtbtneditardatos"
-        android:drawableStart="@drawable/editar_datos_3x1"
-        android:drawableEnd="@drawable/icon_nextx1"
+        android:drawableStart="@drawable/mit_iconeditardatos"
+        android:drawableEnd="@drawable/mit_iconflechaverde"
         android:layout_width="@dimen/btn_type05_width"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
@@ -48,13 +48,13 @@
         android:layout_margin="@dimen/input_marginRight"
         android:padding="@dimen/btn_type05_paddingBottom"
         android:text="@string/mit_varstrmenutienda3"
-        style="@style/Outlined_button_blue"
-        android:background="@drawable/outline_blue"/>
+        style="@style/Outlined_buttonXL_green"
+        android:background="@drawable/outlinebtnxl_green"/>
 
     <Button
         android:id="@+id/mit_mtbtncambiartienda"
-        android:drawableStart="@drawable/cambiar_tienda_version_2_1"
-        android:drawableEnd="@drawable/icon_nextx1"
+        android:drawableStart="@drawable/mit_iconcambiartienda"
+        android:drawableEnd="@drawable/mit_iconflechaverde"
         android:layout_width="@dimen/btn_type05_width"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
@@ -62,13 +62,13 @@
         android:layout_gravity="center"
         android:padding="@dimen/btn_type05_paddingBottom"
         android:text="@string/mit_varstrmenutienda4"
-        style="@style/Outlined_button_blue"
-        android:background="@drawable/outline_blue"/>
+        style="@style/Outlined_buttonXL_green"
+        android:background="@drawable/outlinebtnxl_green"/>
 
     <Button
         android:id="@+id/mit_mtbtnagregartienda"
         android:drawableStart="@drawable/agregar_tienda"
-        android:drawableEnd="@drawable/icon_nextx2"
+        android:drawableEnd="@drawable/mit_iconflechaazul"
         android:layout_width="@dimen/btn_type05_width"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
@@ -78,6 +78,6 @@
         android:padding="@dimen/btn_type05_paddingBottom"
         android:text="@string/mit_varstrmenutienda5"
         style="@style/Outlined_button_blue"
-        android:background="@drawable/outline_blue"/>
+        android:background="@drawable/outlinebtnxl_blue"/>
 
 </LinearLayout>

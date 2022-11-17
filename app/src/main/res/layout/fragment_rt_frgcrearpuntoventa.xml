@@ -127,7 +127,7 @@
             android:id="@+id/rt_cpvbtnubicacion"
             android:layout_width="@dimen/btn_type04_width"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_icon_geoaltfill"
+            android:drawableStart="@drawable/rt_iconseleccionarubicacion"
             style="@style/Contained_button_green"
             android:text="@string/rt_varstrcrearpuntoventa7"
             android:layout_margin="@dimen/input_marginRight"

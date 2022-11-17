@@ -27,7 +27,7 @@
                 android:layout_margin="@dimen/input_marginRight"
                 android:gravity="center"
                 android:text="@string/mit_varstrreporteproductos1"
-                app:drawableStartCompat="@drawable/ic_icon_filter"
+                app:drawableStartCompat="@drawable/mip_iconfiltropor"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/mit_repspncategoria"
                 app:layout_constraintStart_toStartOf="parent"

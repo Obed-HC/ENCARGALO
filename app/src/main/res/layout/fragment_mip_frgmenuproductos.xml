@@ -9,8 +9,8 @@
 
     <Button
         android:id="@+id/mip_mpbtnregistrarproducto"
-        android:drawableStart="@drawable/qr_3x1"
-        android:drawableEnd="@drawable/mas_grande_que_3x_1"
+        android:drawableStart="@drawable/mip_iconregistrarproducto"
+        android:drawableEnd="@drawable/mit_iconflechaverde"
         android:layout_width="@dimen/btn_type05_width"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
@@ -19,12 +19,12 @@
         android:layout_margin="@dimen/input_marginRight"
         android:padding="@dimen/btn_type05_paddingBottom"
         android:text="@string/mit_varstrmenuproductos1"
-        style="@style/Outlined_button_blue"
-        android:background="@drawable/outline_black"/>
+        style="@style/Outlined_buttonXL_black"
+        android:background="@drawable/outlinebtnxl_black"/>
     <Button
         android:id="@+id/mip_mpbtnreporteproductos"
-        android:drawableStart="@drawable/reporte_del_producto1"
-        android:drawableEnd="@drawable/mas_grande_que_3x_1"
+        android:drawableStart="@drawable/mip_iconreporteproducto"
+        android:drawableEnd="@drawable/mit_iconflechaverde"
         android:layout_width="@dimen/btn_type05_width"
         android:layout_height="wrap_content"
         android:textAllCaps="false"
@@ -33,7 +33,7 @@
         android:layout_margin="@dimen/input_marginRight"
         android:padding="@dimen/btn_type05_paddingBottom"
         android:text="@string/mit_varstrmenuproductos2"
-        style="@style/Outlined_button_blue"
-        android:background="@drawable/outline_black"/>
+        style="@style/Outlined_buttonXL_black"
+        android:background="@drawable/outlinebtnxl_black"/>
 
 </LinearLayout>

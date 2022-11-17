@@ -24,7 +24,7 @@
 
         <ImageView
             android:id="@+id/mit_dtimgtienda"
-            android:background="@drawable/agregar_tienda_1"
+            android:background="@drawable/mit_iconimagentienda"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -52,7 +52,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/activity_margin"
                 style="@style/input"
-                android:drawableStart="@drawable/icono_perfil"
+                android:drawableStart="@drawable/mit_iconnombretienda"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda2" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -69,7 +69,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="@dimen/activity_margin"
                 style="@style/input"
-                android:drawableStart="@drawable/link_internet1"
+                android:drawableStart="@drawable/mit_iconenlace"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda3"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -81,7 +81,7 @@
             android:layout_gravity="center"
             style="@style/input"
             android:layout_margin="@dimen/activity_margin"
-            android:drawableStart="@drawable/tienda_de_abarrotes1"
+            android:drawableStart="@drawable/mit_icondescripciontienda"
             android:padding="@dimen/input_padding"
             android:hint="@string/rt_varstrdatostienda4"/>
 
@@ -106,7 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 style="@style/input"
-                android:drawableStart="@drawable/correo3x1"
+                android:drawableStart="@drawable/mit_iconcorreo"
                 android:layout_margin="@dimen/activity_margin"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda6"/>
@@ -123,7 +123,7 @@
                 android:layout_gravity="center"
                 style="@style/input"
                 android:layout_margin="@dimen/activity_margin"
-                android:drawableStart="@drawable/telefono_3x1"
+                android:drawableStart="@drawable/mit_iconcelular"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda7"/>
         </com.google.android.material.textfield.TextInputLayout>
@@ -139,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 style="@style/input"
-                android:drawableStart="@drawable/ubicacion3x1"
+                android:drawableStart="@drawable/mit_iconubicacion"
                 android:layout_margin="@dimen/activity_margin"
                 android:padding="@dimen/input_padding"
                 android:hint="@string/rt_varstrdatostienda8"/>

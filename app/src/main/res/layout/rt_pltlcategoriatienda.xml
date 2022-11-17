@@ -15,11 +15,11 @@
 
         <RadioButton
             android:id="@+id/rt_ptrbtnrubro"
-            style="@style/Outlined_button_blue"
+            style="@style/Outlined_buttonXL_black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layoutDirection="rtl"
-            android:background="@drawable/outline_black"
+            android:background="@drawable/outlinebtnxl_black"
             android:paddingBottom="@dimen/input_padding">
         </RadioButton>
 
